@@ -28,7 +28,7 @@ from nltk.corpus.reader.plaintext import CategorizedPlaintextCorpusReader
 from feature_extractors import MeasureLexDiv, GetSpeechFeatures, NLTKPreprocessor, GetpreBoundary, GetspeechRate
 
 
-CORPUS = "/Users/martinafernandez/Dropbox/BULATS/"
+CORPUS = "/ExamplePath/"
 DOC_PATTERN = r'[A-Z]\d/\w+/.*\.txt'
 CAT_PATTERN = r'[A-Z]\d/(\w+)/.*\.txt'
 
@@ -92,7 +92,7 @@ def build_and_evaluate(X, y, clf, speech_feats, verbose=True):
 if __name__ == "__main__":
     PATH = "model.pickle"
     # Loading speech features
-    speech = pd.read_csv("/Users/martinafernandez/UROP2017/SpeechFeatures/allspeechfeats.csv")
+    speech = pd.read_csv("/ExamplePath.csv")
 
     if not os.path.exists(PATH):
         nli = CategorizedPlaintextCorpusReader(CORPUS,
