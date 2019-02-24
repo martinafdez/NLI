@@ -1,7 +1,7 @@
 # NLI
 
 
-Code used for Native Language Identification research as part of UROP 2017 project at Cambridge University, sponsored by Cambridge Assessment English. 
+Native Language Identification research as part of UROP 2017 project at Cambridge University, sponsored by Cambridge Assessment English. 
 
 DEPENDENCIES:
 * Natural Language Toolkit
